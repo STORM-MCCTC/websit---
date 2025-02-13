@@ -6,7 +6,8 @@
 body{
     color: rgb(0, 0, 0);
     text-align: center;
-    background-color: #8600d2;
+    background: rgb(134,0,210);
+    background: linear-gradient(180deg, rgba(134,0,210,1) 0%, rgba(64,0,101,1) 100%);
 }
 .leftmenu{
     border-color: white;
@@ -61,8 +62,8 @@ body{
     margin-top: 0px;
     margin-bottom: 10px;
     font-family: sans-serif;
-    font-size: 2rem;
-    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    font-size: 3rem;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -70,11 +71,11 @@ body{
   .link_button{
     color: rgb(0, 0, 0);
     text-align: center;
-    background-color: #b85cd4;
+    background-color: rgb(134,0,210);
     width: 100px;
     height: 40px;
     color: white;
   }
   .link_button:hover{
-    background-color: #9d32be;
+    background-color: rgb(102, 0, 162);
   }
