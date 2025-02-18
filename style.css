@@ -40,6 +40,22 @@ body{
 .div6 { grid-area: 3 / 1 / 4 / 2; }
 .div7 { grid-area: 3 / 3 / 4 / 4; }
 
+@media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      gap: 15px;
+    }
+  
+    .div1 { grid-area: auto; }
+    .div2 { grid-area: auto; }
+    .div3 { grid-area: auto; }
+    .div4 { grid-area: auto; }
+    .div5 { grid-area: auto; }
+    .div6 { grid-area: auto; }
+    .div7 { grid-area: auto; }
+  }
+
 /* Menus */
 .leftmenu{
     border-color: rgb(0, 0, 0);
